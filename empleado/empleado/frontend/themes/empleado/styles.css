@@ -1,0 +1,13 @@
+@import url('./main-layout.css');
+@import url('./views/detalle-empleados-view.css');    html {
+      --lumo-base-color: #e5e1f4;
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+
+    }
+
+    [theme~="dark"] {
+      --lumo-body-text-color: hsla(117, 45%, 97%, 0.9);
+
+    }
